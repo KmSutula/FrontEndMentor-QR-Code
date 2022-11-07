@@ -1,0 +1,35 @@
+body {
+  font: 15px "Outfit";
+  background-color: hsl(212, 45%, 89%);
+}
+
+.main-container {
+  background-color: #fff;
+  height: 497px;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  margin: 16px auto;
+  border-radius: 10px;
+}
+
+.text-container {
+  width: 288px;
+  height: 129px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-container * {
+  padding: 0 16px;
+}
